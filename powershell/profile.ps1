@@ -20,6 +20,7 @@ function y {
 
 function menu {
     Write-Host "`n--- Terminal Quick Commands ---`n"
+    Write-Host "nvide   → Open Neovide"
     Write-Host "ls   → List files"
     Write-Host "la   → List all files"
     Write-Host "lt   → Tree view"
@@ -43,8 +44,7 @@ function disk { dust }
 function space { duf }
 function lg { lazygit }
 function python3 { python }
-function nvim { Start-Process "C:\Program Files\Neovide\neovide.exe" -- @args }
-function vim { Start-Process "C:\Program Files\Neovide\neovide.exe" -- @args }
+function nvide { Start-Process "C:\Program Files\Neovide\neovide.exe" -- @args }
 $ENV:STARSHIP_CONFIG = "$HOME\.config\starship\starship.toml"
 $env:EZA_CONFIG_DIR = "$env:USERPROFILE\.config\eza"
 $env:YAZI_CONFIG_HOME = "$HOME\.config\yazi"
