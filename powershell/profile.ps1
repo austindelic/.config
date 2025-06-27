@@ -50,3 +50,4 @@ $env:EZA_CONFIG_DIR = "$env:USERPROFILE\.config\eza"
 $env:YAZI_CONFIG_HOME = "$HOME\.config\yazi"
 $env:YAZI_FILE_ONE = "C:\Program Files\Git\usr\bin\file.exe"
 $env:TERM = "xterm-256color"
+$env:JUST_SHELL = 'powershell -NoProfile -Command'
